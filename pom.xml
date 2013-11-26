@@ -37,7 +37,7 @@
                                 <artifactId>exec-maven-plugin</artifactId>
                                 <version>${exec-maven-plugin.version}</version>
                                 <configuration>
-                                        <mainClass>de,htw_berlin.f4.ai.kbe.App</mainClass>
+                                        <mainClass>de.htw_berlin.f4.ai.kbe.App</mainClass>
                                 </configuration>
                         </plugin>
                         <plugin>
