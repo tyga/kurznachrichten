@@ -28,12 +28,12 @@ public class Message {
 		this.topic = topic;
 	}
 	
-	public void setUserId(Long userId) {
-		this.userId = userId;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
-	public Long getUserId() {
-		return userId;
+	public User getUser() {
+		return user;
 	}
 
 	
@@ -45,6 +45,14 @@ public class Message {
 		this.origin = origin;
 	}
 	
+	public Long getMessageId() {
+		return messageId;
+	}
+
+	public void setMessageId(Long messageId) {
+		this.messageId = messageId;
+	}
+	
 	//creationDate
 	private Date date;
 	
@@ -52,7 +60,11 @@ public class Message {
 	
 	private String topic;
 	
-	private Long userId;
+	private User user;
 	
 	private Boolean origin;
+	
+	private Long messageId;
+
+	
 }
